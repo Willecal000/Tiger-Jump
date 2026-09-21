@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BirdTrigger : MonoBehaviour
+public class TriggerBox : MonoBehaviour
 {
     Animator m_Animator;
 
@@ -9,9 +9,6 @@ public class BirdTrigger : MonoBehaviour
     public GameObject parentObject;
     public Collider2D ColliderCheck;
     public Collider2D Detect;
-
-    public GameObject Appear;
-    public GameObject Dissappear;
     ContactFilter2D noFilter;
    
     void Start()
@@ -26,9 +23,7 @@ public class BirdTrigger : MonoBehaviour
         if (ColliderCheck.IsTouching(Detect))
         {
             m_Animator.SetTrigger(Trigger);
-            Dissappear.SetActive(false);
-            Appear.SetActive(true);
-
+            
         }
     }
 }

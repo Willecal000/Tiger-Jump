@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tory
+  m_Name: Talk
   serializedVersion: 8
   m_Legacy: 0
   m_Compressed: 0
@@ -20,12 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - serializedVersion: 2
     curve:
-    - time: 0
-      value: {fileID: -6886684955923730610, guid: 5d45fc50de0bd0c40a20183992796788, type: 3}
     - time: 0.083333336
-      value: {fileID: 8379602765011499634, guid: 5d45fc50de0bd0c40a20183992796788, type: 3}
+      value: {fileID: -4139652297614929904, guid: b78de68e3c4a8b146a58df9f8dbcd6d1, type: 3}
     - time: 0.16666667
-      value: {fileID: -6886684955923730610, guid: 5d45fc50de0bd0c40a20183992796788, type: 3}
+      value: {fileID: 756461113821011390, guid: b78de68e3c4a8b146a58df9f8dbcd6d1, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -49,9 +47,8 @@ AnimationClip:
       isSerializeReferenceCurve: 0
       metaData: 0
     pptrCurveMapping:
-    - {fileID: -6886684955923730610, guid: 5d45fc50de0bd0c40a20183992796788, type: 3}
-    - {fileID: 8379602765011499634, guid: 5d45fc50de0bd0c40a20183992796788, type: 3}
-    - {fileID: -6886684955923730610, guid: 5d45fc50de0bd0c40a20183992796788, type: 3}
+    - {fileID: -4139652297614929904, guid: b78de68e3c4a8b146a58df9f8dbcd6d1, type: 3}
+    - {fileID: 756461113821011390, guid: b78de68e3c4a8b146a58df9f8dbcd6d1, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
