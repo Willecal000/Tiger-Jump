@@ -6,6 +6,5 @@ public class Callwin : MonoBehaviour
     {
         Debug.Log("touch");
         FindAnyObjectByType<YouWin>().Win();
-        
     }
 }
