@@ -20,4 +20,9 @@ public class YouDied : MonoBehaviour
         SceneManager.LoadScene("Tiger Jungle Jump");
         Time.timeScale = 1;
     }
+
+    public void Quit()
+    {
+        SceneManager.LoadScene("GameMenu");
+    }
 }
