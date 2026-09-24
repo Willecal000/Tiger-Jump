@@ -10,9 +10,7 @@ public class YouWin : MonoBehaviour
     public void Win()
     {
         Won = true;
-        Winscreen.SetActive(true);
-
-        Time.timeScale = 1;
+        SceneManager.LoadScene("Win");
     }
 
     public void Retry()

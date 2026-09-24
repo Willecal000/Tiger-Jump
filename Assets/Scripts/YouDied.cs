@@ -9,10 +9,8 @@ public class YouDied : MonoBehaviour
 
     public void Dead()
     {
-        isDead = true;
-       YouDiedScreen.SetActive(true);
-
-        Time.timeScale = 0;
+        SceneManager.LoadScene("Lose");
+        Debug.Log("loaded lose scene");
     }
 
     public void Retry()
